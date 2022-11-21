@@ -44,7 +44,7 @@ Il terminale centrale, invece, sarà collegato al puntale rosso del multimetro. 
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.50]{Circuit.png}
+\includegraphics[scale=0.50]{Circuit}
 \caption{Circuito utilizzato nell'esperimento e sottoposto a tensione iniziale di 5V} 
 \end{figure}
 \subsection{Calibrazione multimetro e oscilloscopio}
@@ -82,7 +82,7 @@ Si procede utilizzando prima il diodo del silicio e in seguito quello del german
 
 \begin{figure}
 \centering
-\includegraphics[scale=0.15]{calib.png}
+\includegraphics[scale=0.15]{calibrazione1.pdf}
 \caption{Retta di calibrazione per misure di tensione di oscilloscopio e multimetro} 
 \end{figure}
 Il fit effettuato tramite ROOT ha riportato un valore pari a \(m=(1.01\pm0.03)mV\) per il coefficiente angolare, consistente ad un fattore moltiplicativo unitario. L’irtercetta della retta, invece, presenta una discrepanza dall’orgine pari a \(q=(7\pm3)mV\), perciò nelle misure successive di tensione sui diodi è stato propagato linearmente l’errore dovuto all’offset della retta di calibrazione secondo l’equazione seguente:
@@ -122,7 +122,7 @@ I = I_0 [exp({\frac{V_D}{\eta V_T}})-1]
 \end{equation}
 \begin{figure}
     \centering
-    \includegraphics[scale=0.19]{canvas.png}
+    \includegraphics[scale=0.19]{silicio2.png}
     \caption{Caratteristica IV di un diodo al Silicio in scala semilogaritmica}
     \label{fig:my_label}
 \end{figure}
@@ -154,7 +154,7 @@ In modo analogo al caso precedente, abbiamo misurato la caratteristica IV di un 
 \quad
 \begin{figure}
     \centering
-    \includegraphics[scale=0.20]{canvas2.png}
+    \includegraphics[scale=0.20]{germanio2.png}
     \caption{caratteristica IV di un diodo al Germanio}
     \label{fig:my_label}
 \end{figure}
